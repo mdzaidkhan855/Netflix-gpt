@@ -41,6 +41,16 @@
 
 // Deploy app on firebse
 1. npm i -g firebase-tools
+
+############################### Redux and Firebase ########################
+1. Instead of calling dispacth action here and there, we will use onAuthStateChanged of firebase
+2. This API is called whenevr user signs up or sign in or sign out.
+3. So this is best place to use dispatch logic. A kind of event listener
+4. Since it needs to be called only once, so let's put it inside useEffect.
+5. This useEffect could be either in Body.js or App.js. Let's do it in Body.js
+
+########################## Build Movies ###############################
+1. Fetch movies from TMDB Movies.
 2. 
 
 
