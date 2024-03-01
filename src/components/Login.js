@@ -24,15 +24,11 @@ const Login = () => {
 
     const user = useSelector((store)=>store.user);
     
-    // useEffect(()=>{  
-    //     console.log("User already authenticated: " + auth.name)   ;   
-    //     if(user !== null)
-    //     navigate("/browse");
-    // },[])
+ 
 
   const handleButtonClick = ()=>{
     const message = checkValidData(email.current.value,password.current.value);
-    console.log(message);
+    
     setErrorMessage(message);
 
     if(message) return;
@@ -52,7 +48,7 @@ const Login = () => {
                     }).catch((error) => {
                         setErrorMessage(error.message);
                     });
-               console.log(" Sign Up User: ", user);
+               
                
             })
             .catch((error) => {

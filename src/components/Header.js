@@ -17,8 +17,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   const user = useSelector((store)=>store.user); 
-  console.log("user is:" + user);
-
+  
   useEffect(()=>{
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {

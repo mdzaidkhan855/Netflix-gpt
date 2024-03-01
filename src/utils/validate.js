@@ -1,7 +1,6 @@
 
 export const checkValidData = (email,password)=>{
 
-    console.log(email == null);
     if(!email) return "Email can not be empty";
     if(!password) return "Password can not be empty";
     

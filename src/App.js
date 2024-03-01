@@ -7,7 +7,6 @@ import appStore from './utils/appStore';
 
 function App() {
 
-  console.log("Inside App");
   return (
     <div>
       <Provider store={appStore}> 

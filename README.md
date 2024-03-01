@@ -59,6 +59,14 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDY5Y2ZiMzI3ZjMyODU5OGIzMDU3OWMyOTljMDcyYiIsInN
 6. Go down to Movie Lists . Click Now Playing
 7.
 
+###################### Movie Browse UI design #########################
+- Header( Which is common with Login Page also)
+- Main Container
+---- VideoBackground
+---- Video titles
+- Secondary Containe
+----  Movie List * n
+------  Cards * n
 
 
 
