@@ -50,7 +50,7 @@
 5. This useEffect could be either in Body.js or App.js. Let's do it in Body.js
 
 ########################## Build Movies ###############################
-1. Fetch movies from TMDB Movies API
+1. Fetch movies from TMDB Movies API : https://developer.themoviedb.org/reference/movie-videos
 2. I registerd with login : mursheed.khan@qsstechnosoft.com / react
 3. API Key : 4d69cfb327f328598b30579c299c072b
 4. Access Token : 
@@ -67,6 +67,12 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDY5Y2ZiMzI3ZjMyODU5OGIzMDU3OWMyOTljMDcyYiIsInN
 - Secondary Containe
 ----  Movie List * n
 ------  Cards * n
+
+Secondary Containe
+  MovieList -- Popular
+     -- MovieCards
+  MovieList -- Now Paying
+  MovieList -- Trending
 
 
 
